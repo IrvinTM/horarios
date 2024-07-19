@@ -24,7 +24,7 @@ function App() {
               },
               {
                   role: "user",
-                  content: "Hola, actua como un bot que me sugiere horarios para mis clases te enviare los horarios disponible y me sugieres que grupos elejir de manera que no choquen, no respondas mas que el horario en markdown con el nombre de la materia grupo y horario"
+                  content: "Hola, actua como un bot que me sugiere horarios para mis clases te enviare los horarios disponible y me sugieres que grupos elejir de manera que no choquen, no respondas mas que el horario en markdown con el nombre de la materia, grupo y horario sugerido de manera que no choquen."
               },
               {
                   role: "assistant",
