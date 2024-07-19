@@ -1,0 +1,323 @@
+{
+    "subjects": [
+        {
+            "code": "ADS235",
+            "name": "Análisis y Diseño de Software II",
+            "url": "./ads235",
+            "groups": [
+              {
+                "group": 1,
+                "type": "Teorico",
+                "teacher": "Oculto",
+                "schedule": [
+                  {
+                    "day": "Lunes",
+                    "start_time": "06:45:00",
+                    "end_time": "09:15:00",
+                    "classroom": "IDS_VIRTUAL-1"
+                  },
+                  {
+                    "day": "Viernes",
+                    "start_time": "18:00:00",
+                    "end_time": "19:40:00",
+                    "classroom": "IDS_VIRTUAL-11"
+                  }
+                ]
+              },
+              {
+                "group": 2,
+                "type": "Teorico",
+                "teacher": "Oculto",
+                "schedule": [
+                  {
+                    "day": "Miercoles",
+                    "start_time": "06:45:00",
+                    "end_time": "09:15:00",
+                    "classroom": "IDS_VIRTUAL-10"
+                  },
+                  {
+                    "day": "Sabado",
+                    "start_time": "18:50:00",
+                    "end_time": "20:30:00",
+                    "classroom": "IDS_VIRTUAL-10"
+                  }
+                ]
+              }
+            ]
+          },
+      {
+        "code": "GPO135",
+        "name": "Gestión y Programación de Sistemas Operativos I",
+        "url": "./gpo135",
+        "groups": [
+          {
+            "group": 1,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Lunes",
+                "start_time": "16:20:00",
+                "end_time": "17:10:00",
+                "classroom": "IDS_VIRTUAL-10"
+              },
+              {
+                "day": "Martes",
+                "start_time": "16:20:00",
+                "end_time": "17:10:00",
+                "classroom": "IDS_VIRTUAL-10"
+              },
+              {
+                "day": "Miercoles",
+                "start_time": "16:20:00",
+                "end_time": "17:10:00",
+                "classroom": "IDS_VIRTUAL-10"
+              },
+              {
+                "day": "Sabado",
+                "start_time": "16:20:00",
+                "end_time": "17:10:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Sabado",
+                "start_time": "17:10:00",
+                "end_time": "18:00:00",
+                "classroom": "IDS_VIRTUAL-11"
+              }
+            ]
+          },
+          {
+            "group": 2,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Lunes",
+                "start_time": "16:20:00",
+                "end_time": "17:10:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Martes",
+                "start_time": "16:20:00",
+                "end_time": "17:10:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Miercoles",
+                "start_time": "16:20:00",
+                "end_time": "17:10:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Miercoles",
+                "start_time": "18:50:00",
+                "end_time": "19:40:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Miercoles",
+                "start_time": "19:40:00",
+                "end_time": "20:30:00",
+                "classroom": "IDS_VIRTUAL-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "IGE135",
+        "name": "Introducción a la Gestión Empresarial",
+        "url": "./ige135",
+        "groups": [
+          {
+            "group": 1,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Martes",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-1"
+              },
+              {
+                "day": "Miercoles",
+                "start_time": "18:00:00",
+                "end_time": "19:40:00",
+                "classroom": "IDS_VIRTUAL-10"
+              }
+            ]
+          },
+          {
+            "group": 2,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Jueves",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-10"
+              },
+              {
+                "day": "Domingo",
+                "start_time": "16:20:00",
+                "end_time": "18:00:00",
+                "classroom": "IDS_VIRTUAL-10"
+              }
+            ]
+          },
+          {
+            "group": 3,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Martes",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-1"
+              },
+              {
+                "day": "Sabado",
+                "start_time": "18:00:00",
+                "end_time": "19:40:00",
+                "classroom": "IDS_VIRTUAL-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "PDN135",
+        "name": "Plan de Negocios",
+        "url": "./pdn135",
+        "groups": [
+          {
+            "group": 1,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Viernes",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-10"
+              },
+              {
+                "day": "Sabado",
+                "start_time": "13:50:00",
+                "end_time": "15:30:00",
+                "classroom": "IDS_VIRTUAL-11"
+              }
+            ]
+          },
+          {
+            "group": 2,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Domingo",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Domingo",
+                "start_time": "10:05:00",
+                "end_time": "11:45:00",
+                "classroom": "IDS_VIRTUAL-11"
+              }
+            ]
+          },
+          {
+            "group": 3,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Viernes",
+                "start_time": "16:20:00",
+                "end_time": "18:00:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Domingo",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-12"
+              }
+            ]
+          }
+        ]
+      },      
+      {
+        "code": "PMM135",
+        "name": "Programación de Modelos Matemáticos",
+        "url": "./pmm135",
+        "groups": [
+          {
+            "group": 1,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Martes",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-11"
+              },
+              {
+                "day": "Sabado",
+                "start_time": "08:25:00",
+                "end_time": "10:05:00",
+                "classroom": "IDS_VIRTUAL-12"
+              }
+            ]
+          },
+          {
+            "group": 2,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Lunes",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-10"
+              },
+              {
+                "day": "Domingo",
+                "start_time": "18:00:00",
+                "end_time": "19:40:00",
+                "classroom": "IDS_VIRTUAL-10"
+              }
+            ]
+          },
+          {
+            "group": 3,
+            "type": "Teorico",
+            "teacher": "Oculto",
+            "schedule": [
+              {
+                "day": "Martes",
+                "start_time": "06:45:00",
+                "end_time": "09:15:00",
+                "classroom": "IDS_VIRTUAL-12"
+              },
+              {
+                "day": "Sabado",
+                "start_time": "14:40:00",
+                "end_time": "16:20:00",
+                "classroom": "IDS_VIRTUAL-12"
+              }
+            ]
+          }
+        ]
+      }
+      
+    ]
+  }  

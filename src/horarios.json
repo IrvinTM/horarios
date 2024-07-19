@@ -1,0 +1,241 @@
+{
+  "subjects": [
+  
+    {
+      "code": "PDN135",
+      "name": "Plan de Negocios",
+      "url": "./pdn135",
+      "groups": [
+        {
+          "group": 1,
+          "type": "Teorico",
+          "teacher": "Oculto",
+          "schedule": [
+            {
+              "day": "V",
+              "start_time": "06:45:00",
+              "end_time": "07:35:00",
+              "classroom": "IDS_VIRTUAL-10"
+            },
+            {
+              "day": "V",
+              "start_time": "07:35:00",
+              "end_time": "08:25:00",
+              "classroom": "IDS_VIRTUAL-10"
+            },
+            {
+              "day": "V",
+              "start_time": "08:25:00",
+              "end_time": "09:15:00",
+              "classroom": "IDS_VIRTUAL-10"
+            },
+            {
+              "day": "S",
+              "start_time": "13:50:00",
+              "end_time": "14:40:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "S",
+              "start_time": "14:40:00",
+              "end_time": "15:30:00",
+              "classroom": "IDS_VIRTUAL-11"
+            }
+          ]
+        },
+        {
+          "group": 2,
+          "type": "Teorico",
+          "teacher": "Oculto",
+          "schedule": [
+            {
+              "day": "D",
+              "start_time": "06:45:00",
+              "end_time": "07:35:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "D",
+              "start_time": "07:35:00",
+              "end_time": "08:25:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "D",
+              "start_time": "08:25:00",
+              "end_time": "09:15:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "D",
+              "start_time": "10:05:00",
+              "end_time": "10:55:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "D",
+              "start_time": "10:55:00",
+              "end_time": "11:45:00",
+              "classroom": "IDS_VIRTUAL-11"
+            }
+          ]
+        },
+        {
+          "group": 3,
+          "type": "Teorico",
+          "teacher": "Oculto",
+          "schedule": [
+            {
+              "day": "V",
+              "start_time": "16:20:00",
+              "end_time": "17:10:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "V",
+              "start_time": "17:10:00",
+              "end_time": "18:00:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "D",
+              "start_time": "06:45:00",
+              "end_time": "07:35:00",
+              "classroom": "IDS_VIRTUAL-12"
+            },
+            {
+              "day": "D",
+              "start_time": "07:35:00",
+              "end_time": "08:25:00",
+              "classroom": "IDS_VIRTUAL-12"
+            },
+            {
+              "day": "D",
+              "start_time": "08:25:00",
+              "end_time": "09:15:00",
+              "classroom": "IDS_VIRTUAL-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PMM135",
+      "name": "Programación de Modelos Matemáticos",
+      "url": "./pmm135",
+      "groups": [
+        {
+          "group": 1,
+          "type": "Teorico",
+          "teacher": "Oculto",
+          "schedule": [
+            {
+              "day": "M",
+              "start_time": "06:45:00",
+              "end_time": "07:35:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "M",
+              "start_time": "07:35:00",
+              "end_time": "08:25:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "M",
+              "start_time": "08:25:00",
+              "end_time": "09:15:00",
+              "classroom": "IDS_VIRTUAL-11"
+            },
+            {
+              "day": "S",
+              "start_time": "08:25:00",
+              "end_time": "09:15:00",
+              "classroom": "IDS_VIRTUAL-12"
+            },
+            {
+              "day": "S",
+              "start_time": "09:15:00",
+              "end_time": "10:05:00",
+              "classroom": "IDS_VIRTUAL-12"
+            }
+          ]
+        },
+        {
+          "group": 2,
+          "type": "Teorico",
+          "teacher": "Oculto",
+          "schedule": [
+            {
+              "day": "L",
+              "start_time": "06:45:00",
+              "end_time": "07:35:00",
+              "classroom": "IDS_VIRTUAL-10"
+            },
+            {
+              "day": "L",
+              "start_time": "07:35:00",
+              "end_time": "08:25:00",
+              "classroom": "IDS_VIRTUAL-10"
+            },
+            {
+              "day": "L",
+              "start_time": "08:25:00",
+              "end_time": "09:15:00",
+              "classroom": "IDS_VIRTUAL-10"
+            },
+            {
+              "day": "D",
+              "start_time": "18:00:00",
+              "end_time": "18:50:00",
+              "classroom": "IDS_VIRTUAL-10"
+            },
+            {
+              "day": "D",
+              "start_time": "18:50:00",
+              "end_time": "19:40:00",
+              "classroom": "IDS_VIRTUAL-10"
+            }
+          ]
+        },
+        {
+          "group": 3,
+          "type": "Teorico",
+          "teacher": "Oculto",
+          "schedule": [
+            {
+              "day": "M",
+              "start_time": "06:45:00",
+              "end_time": "07:35:00",
+              "classroom": "IDS_VIRTUAL-12"
+            },
+            {
+              "day": "M",
+              "start_time": "07:35:00",
+              "end_time": "08:25:00",
+              "classroom": "IDS_VIRTUAL-12"
+            },
+            {
+              "day": "M",
+              "start_time": "08:25:00",
+              "end_time": "09:15:00",
+              "classroom": "IDS_VIRTUAL-12"
+            },
+            {
+              "day": "S",
+              "start_time": "14:40:00",
+              "end_time": "15:30:00",
+              "classroom": "IDS_VIRTUAL-12"
+            },
+            {
+              "day": "S",
+              "start_time": "15:30:00",
+              "end_time": "16:20:00",
+              "classroom": "IDS_VIRTUAL-12"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
