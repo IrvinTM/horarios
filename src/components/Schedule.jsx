@@ -41,9 +41,12 @@ function StickyHeadTable({ subject }) {
   };
 
   const handleAddToCalendar = (row) => {
-    const { day, start_time, end_time } = row;
     const eventTitle = `${subject.name} ${subject.code} - Grupo ${selectedGroup.group}`;
-    const calendarLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(eventTitle)}&dates=${subject.start_time}/${subject.end_time}&details=Clase&location=&trp=true`;
+    // Establecer las fechas de inicio y fin fijas
+    const startDate = '20240725'; // 25 de julio de 2024
+    const endDate = '20241231'; // 31 de diciembre de 2024
+  
+    const calendarLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(eventTitle)}&dates=${startDate}/${endDate}&details=Clase&location=&trp=true&recur=RRULE:FREQ=DAILY`;
     window.open(calendarLink, '_blank');
   };
 

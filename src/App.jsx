@@ -1,5 +1,5 @@
 import { Subject } from './components/Subject';
-import {subjects} from './horarios.json'
+import {subjects} from './curatedJson.json'
 import { Typography } from '@mui/material';
 function App() {
 
