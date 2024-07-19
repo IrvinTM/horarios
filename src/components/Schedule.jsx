@@ -13,8 +13,8 @@ import TableRow from "@mui/material/TableRow";
 const columns = [
   { id: "day", label: "Día", minWidth: 1 },
   { id: "start_time", label: "Inicio", minWidth: 1 },
-  { id: "end_time", label: "Fin", minWidth: 1, align: "right" },
-  { id: "calendar", label: "Google Calendar", minWidth: 1, align: "right" }
+  { id: "end_time", label: "Fin", minWidth: 1, align: "center" },
+  { id: "calendar", label: "Google Calendar", minWidth: 1, align: "center" }
 ];
 
 function createData(day, start_time, end_time) {
@@ -69,6 +69,7 @@ function StickyHeadTable({ subject }) {
                     key={column.id}
                     align={column.align}
                     style={{ minWidth: column.minWidth }}
+                    className="text-nowrap"
                   >
                     {column.label}
                   </TableCell>
@@ -107,14 +108,14 @@ function StickyHeadTable({ subject }) {
 export function Schedule({ subject }) {
   return (
     <div className="text-center flex flex-col gap-2 justify-center content-center items-center pt-4">
-      <Card>
-        <Typography className="pb-4" variant="h4">
+      
+        <Typography className=" px-6" variant="h4">
           {subject.name} {subject.code}
         </Typography>
         <div className="mx-2 my-2">
           <StickyHeadTable subject={subject} />
         </div>
-      </Card>
+      
     </div>
   );
 }
