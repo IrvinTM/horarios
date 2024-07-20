@@ -78,7 +78,7 @@ function ResponsiveAppBar({fun}) {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={handleClick}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
