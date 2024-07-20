@@ -24,7 +24,20 @@ function App() {
               },
               {
                   role: "user",
-                  content: "Actua como un bot que me sugiere horarios para mis clases te enviare los horarios disponible y me sugieres que grupos elejir de manera que mis horarios no choquen."
+                  content: `Te enviare mis horarios y dame cada grupo a elegir de manera que no choquen, solo dime que grupo elegir para cada materia en markdown, en este formato: - **Análisis y Diseño de Software II (ADS235)**
+ - Grupo a elegir: Grupo 1 (Lunes y Viernes)
+ 
+- **Gestión y Programación de Sistemas Operativos I (GPO135)**
+ - Grupo a elegir: Grupo 1 (Lunes y Martes) y Grupo 2 (Miércoles)
+ 
+- **Introducción a la Gestión Empresarial (IGE135)**
+ - Grupo a elegir: Grupo 1 (Martes y Miércoles)
+ 
+- **Plan de Negocios (PDN135)**
+ - Grupo a elegir: Grupo 1 (Viernes y Sábado)
+ 
+- **Programación de Modelos Matemáticos (PMM135)**
+ - Grupo a elegir: Grupo 2 (Lunes y Domingo)`
               },
               {
                   role: "assistant",
@@ -36,11 +49,11 @@ function App() {
             },
             {
               role: "assistant",
-              content: "¡Perfecto! ¡Déjame revisar los horarios y te sugeriré qué grupos elegir para que no choquen!"
+              content: "¡Perfecto! ¡Déjame revisar los horarios y te sugeriré qué grupo elegir por cada materia para que no choquen!"
           }
           ],
           prompt: "ok",
-          model: "gpt-3.5-turbo",
+          model: "gpt-4",
           markdown: false
       })
   }).then((response) => {
